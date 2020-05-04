@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    foodie (0.1.0)
+    bundle_gem_foodie (0.1.0)
       activesupport (~> 4.2.0)
       thor
 
@@ -73,8 +73,8 @@ PLATFORMS
 
 DEPENDENCIES
   aruba
+  bundle_gem_foodie!
   cucumber
-  foodie!
   rake (~> 12.0)
   rspec (~> 3.0)
 
